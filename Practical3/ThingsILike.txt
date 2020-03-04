@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 I like cats.
 I like coffee.
 I like black tea.
@@ -10,8 +9,3 @@ I like appreciating illustrations.
 I like BMS, of course BI.
 I like mountains with or without clouds.
 I like blue seas.
-
-
-=======
-I like cats.
->>>>>>> master
