@@ -1,0 +1,20 @@
+Results:
+The percent identity by NCBI online BLAST of sequence alignment were as follows. 
+human-mouse: 90.00%
+human-random: 14.00%
+mouse-random: 16.00%
+The percent identity using Python based on Hamming / edit distance were as follows.
+human-mouse: ~86.67%
+human-random: ~5.33%
+mouse-random: ~5.78%
+
+1. The amino acid sequence similarity of BLAST comparison were slightly higher than that of my Python calculation.
+2. Regardless of the calculation method, the human and mouse SOD2 amino acid sequences showed a high degree of similarity.
+3. Whereas, comparing the human and mouse SOD2 amino acid sequence with a random sequence, the similarity were relatively low, and the similarity between human sequence and the random one was slightly lower than that of mouse and random one.
+
+Discussion: 
+1. Calculations performed in Python were indistinguishable comparisons, and BLAST is a heuristic algorithm, which reduced accuracy to some extent. In addition, BLAST takes the weight of the possibility of different amino acids changing each other into account, which also affected the similarity.
+2. The high similarity of amino acid sequences can be explained by evolution hypothesis, that is, the similarity comes from homology. According to the biological evolution perspective, humans and mice have a close genetic relationship (whether in the same lineage or same clade), and evolution is derived from the genetic mutations including that cause amino acid sequence changes. Therefore, the human and mouse amino acid sequence similarity measured in this experiment was very high.
+3. Proteins have a highly complex structure, and most are biologically active, representing a tendency to reduce entropy. This may explain the low similarity between the SOD2 protein and random disordered sequences.
+4. From a biological point of view, humans are more evolved than mice and have a stronger tendency to reduce entropy. This may explain that the similarity of human amino acid sequences aligned with random sequences was lower than that of mice. However, the sample size of this experiment was insufficient to support this hypothesis. Further experiments and more sample verification are needed.
+
