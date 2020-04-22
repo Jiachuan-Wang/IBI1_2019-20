@@ -1,0 +1,6 @@
+Question: How have new cases and total cases developed over time in China?
+The corresponding code is on lines 64 to 81 of the covid.py file.
+
+Discussion: The results of data analysis were in line with my prediction.
+From the end of 2019 to around February 5, 2020, the number of new daily diagnoses of new coronaviruses in China continued to increase, and it surged on February 13 and then gradually decreased. The total number of diagnoses in China has showed a logistic distribution from the end of 2019 to the present, and grew rapidly from January 28 to February 17, and then reached a stable level. 
+The virus spread from Wuhan around the end of January, and it can be pedicted that the initial increase in the number of diagnoses was largely due to Wuhan cases. After an incubation period of about two weeks, the virus carriers in other regions showed symptoms and were diagnosed, hence the number of new diagnoses on February 13 was particularly high. The total number of diagnoses at the end of March was stable, thanks to the implementation of domestic prevention and control measures in China. The number of diagnoses remained low and reached a dynamic balance with the number of cured.
