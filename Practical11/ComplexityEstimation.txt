@@ -1,0 +1,2 @@
+The running times of the function f can be expressed as n!, function t as (n-1)!, and function y as 3^(n-1). The operations with the most repetitions in the program are numerical combinations in line 36 and 40, arithmetic operators combinations in line 49, and number-arithmetic operators matching and processing in line 77. Hence, the total times can be expressed as 3^(n-1)*n^2*[(n-1)!]^2*n!.
+The complexity of this algorithm is O((n!)^2), indicating the algorithm is horrible complex.
