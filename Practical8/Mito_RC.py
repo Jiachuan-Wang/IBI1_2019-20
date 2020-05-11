@@ -3,7 +3,7 @@
 Created on Wed Apr  1 18:44:28 2020
 
 @author: 汪嘉川
-"""
+""" #Thanks for Chen Jincheng and Cen Yihui for provide me programming idea.
 
 import re
 fr=open(r'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa')

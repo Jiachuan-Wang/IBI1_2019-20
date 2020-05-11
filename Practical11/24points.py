@@ -3,7 +3,7 @@
 Created on Mon May 11 09:16:11 2020
 
 @author: 汪嘉川
-"""
+"""# Thanks for Cen Yihui for provide me programming idea.
 
 input_numbers = input(r"Please input numbers to compute 24 (use ',' to divide them): ")
 number = []
