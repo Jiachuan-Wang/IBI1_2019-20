@@ -10,9 +10,11 @@ b=345345
 c=b/7
 d=c/11
 e=d/13
-a==e
+print(a==e)
+
 X=1==1
 Y=1==2
 Z=(X and not Y) or (Y and not X)
+print(Z)
 W=(X!=Y)
-Z==W
+print(Z==W)
